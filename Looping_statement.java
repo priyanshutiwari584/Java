@@ -201,7 +201,7 @@ public class Looping_statement {
             System.out.println("Answer is: "+ans);
         }
 
-        //Program to take the input numbers and print the sum of all number the till 'x' is pressed.
+        //Program to take the input numbers and print the sum of all number the till '0' is pressed.
         int sum1=0;
         while(true){
             //Taking the uesr ipnut.
