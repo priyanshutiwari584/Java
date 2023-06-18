@@ -140,8 +140,7 @@ public class Looping_statement {
          * 
          * // Program to print the Multipliation Table of number.
          * 
-         * System.out.
-         * println("Enter the Number to print the Multiplication table of that number:");
+         * System.out.println("Enter the Number to print the Multiplication table of that number:");
          * int num1 = sc.nextInt();
          * System.out.println("Multiplication Table of Numaber:");
          * for (int i = 1; i <= 10; i++) {
