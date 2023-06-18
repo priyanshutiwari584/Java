@@ -234,7 +234,8 @@ public class Looping_statement {
         System.out.println("largest value: "+large);
 */
         //Subtract the Product and Sum of Digits of an Integer
-        int Num22=234;
+        System.out.println("Enter the Number to subtract the porduct with sum of digit of an Integer:");
+        int Num22=sc.nextInt();
         int ans1=0,prod=1,sum2=0;
         while(Num22>0){
             int rem = Num22%10;
