@@ -141,8 +141,7 @@ public class Looping_statement {
          * // Program to print the Multipliation Table of number.
          * 
          * System.out.
-         * println("Enter the Number to print the Multiplication table of that number:"
-         * );
+         * println("Enter the Number to print the Multiplication table of that number:");
          * int num1 = sc.nextInt();
          * System.out.println("Multiplication Table of Numaber:");
          * for (int i = 1; i <= 10; i++) {
@@ -246,7 +245,7 @@ public class Looping_statement {
             prod=prod*rem;
             //add the rem with sum and store the value in sum.
             sum2=sum2+rem;
-            //subtract th prod and sum ,store the value in ans.
+            //subtract the prod and sum ,store the value in ans.
             ans1=prod-sum2;
         }
         System.out.println("Answer is:"+ans1);
