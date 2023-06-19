@@ -218,7 +218,7 @@ public class Looping_statement {
             System.out.println("Sum is :"+sum1);
         }
 
-        //Take integer inputs till the user enters 0 and print the largest number from all.
+        //Take integer inputs till the user enters '0' and print the largest number from all.
         int large=0;
         System.out.println("Enter the Number or('0' ot exit): ");
         while(true){
@@ -245,7 +245,7 @@ public class Looping_statement {
             prod=prod*rem;
             //add the rem with sum and store the value in sum.
             sum2=sum2+rem;
-            //subtract the prod and sum ,store the value in ans.
+            //subtract the prod and sum, store the value in ans.
             ans1=prod-sum2;
         }
         System.out.println("Answer is:"+ans1);

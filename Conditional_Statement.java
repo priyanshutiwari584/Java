@@ -25,46 +25,46 @@ public class Conditional_Statement {
          * else{
          * System.out.println("Entered number is Odd!");
          * 
-        
-
-        
-
-        //Program to check the which number is greater form the input ones.
-        System.out.print("Enter the Three Numbers To check the Greater Number:");
-        int a,b,c;
-        a=sc.nextInt();
-        b=sc.nextInt();
-        c=sc.nextInt();
-        if(a>b){
-            System.out.println("Greater Number :"+a);
-        }
-        else if(b>c){
-            System.out.println("Greater Number :"+b);
-        }
-        else{
-            System.out.println("Greater Number:"+c);
-        }
-
-        //Program to check the which number is greater form the input ones using the Math.max function.
-        System.out.print("Enter the Three Numbers to check which one is greater:");
-        int a1,b1,c1;
-        a1=sc.nextInt();
-        b1=sc.nextInt();
-        c1=sc.nextInt();
-        int max=Math.max(c1,Math.max(a1,b1));
-        System.out.println("Greater Number is:"+max);
-
-*/
-        //Program to check the case of input charcter.
+         * 
+         * 
+         * 
+         * 
+         * //Program to check the which number is greater form the input ones.
+         * System.out.print("Enter the Three Numbers To check the Greater Number:");
+         * int a,b,c;
+         * a=sc.nextInt();
+         * b=sc.nextInt();
+         * c=sc.nextInt();
+         * if(a>b){
+         * System.out.println("Greater Number :"+a);
+         * }
+         * else if(b>c){
+         * System.out.println("Greater Number :"+b);
+         * }
+         * else{
+         * System.out.println("Greater Number:"+c);
+         * }
+         * 
+         * //Program to check the which number is greater form the input ones using the
+         * Math.max function.
+         * System.out.print("Enter the Three Numbers to check which one is greater:");
+         * int a1,b1,c1;
+         * a1=sc.nextInt();
+         * b1=sc.nextInt();
+         * c1=sc.nextInt();
+         * int max=Math.max(c1,Math.max(a1,b1));
+         * System.out.println("Greater Number is:"+max);
+         * 
+         */
+        // Program to check the case of input charcter.
         System.out.println("Enter the Charcter to check the LowerCase or UpperCase:");
-        char c=sc.next().trim().charAt(0);
-        if(c>='a'&& c<='z'){
-            System.out.println(c+" is LowerCase");
+        char c = sc.next().trim().charAt(0);
+        if (c >= 'a' && c <= 'z') {
+            System.out.println(c + " is LowerCase");
+        } else {
+            System.out.println(c + " is UpperCase");
         }
-        else{
-            System.out.println(c+" is UpperCase");
-        }
-        
+
         /*
          * //if Statement
          * System.out.println("Enter your age between 1 to 10:");
@@ -157,7 +157,44 @@ public class Conditional_Statement {
          * }
          */
 
+        // switch Statement with to print the days of week.
+        System.out.println("Enter the Number from 1 to 7 to print the days of week: ");
+        int day = sc.nextInt();
+
+        switch (day) {
+            case 1: {
+                System.out.println("Day is Monday.");
+                break;
+            }
+            case 2: {
+                System.out.println("Day is Tuesday.");
+                break;
+            }
+            case 3: {
+                System.out.println("Day is Wednesday.");
+                break;
+            }
+            case 4: {
+                System.out.println("Day is Thursday.");
+                break;
+            }
+            case 5: {
+                System.out.println("Day is Friday.");
+                break;
+            }
+            case 6: {
+                System.out.println("Day is Saturday.");
+                break;
+            }
+            case 7: {
+                System.out.println("Day is Sunday.");
+                break;
+            }
+            default: {
+                System.out.println("Please Enter Valis Number.");
+            }
+        }
+
         sc.close();
     }
 }
-
